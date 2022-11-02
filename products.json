@@ -1,0 +1,39 @@
+[
+    {
+        "name" : "apples",
+        "dept" : "produce",
+        "price" : 1.25,
+        "qty" : 25
+    },
+    {
+        "name" : "bananas",
+        "dept" : "produce",
+        "price" : 0.69,
+        "qty" : 100
+    },
+    {
+        "name" : "oranges",
+        "dept" : "produce",
+        "price" : 1.50,
+        "qty" : 125
+    },
+    {
+        "name" : "hiland whole milk",
+        "dept" : "dairy",
+        "price" : 4.99,
+        "qty" : 25
+    },
+    {
+        "name" : "hiland 2% milk",
+        "dept" : "dairy",
+        "price" : 4.25,
+        "qty" : 30
+    },
+    {
+        "name" : "digiorno frozen pizza",
+        "dept" : "frozen",
+        "price" : 5.25,
+        "qty" : 20
+    }
+    
+]
