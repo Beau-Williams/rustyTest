@@ -9,7 +9,12 @@ button.addEventListener("click", function(){
     
     for(let i in myJSON){
         if(myJSON[i].name.includes(searchItem)){
-            document.querySelector("#result").innerHTML ="<p>" + myJSON[i].name + " Price: " + myJSON[i].price + " Qty: " + myJSON[i].qty + "</p>";
+            let list = document.createElement("p");
+            let text = document.createTextNode("Item: " + myJSON[i].name + " | Price: " + myJSON[i].price + " | Qty in stock: " + myJSON[i].qty + " | Department: " + myJSON[i].dept); 
+            list.appendChild(text);
+            result.appendChild(list);
+
+            // document.querySelector("#result").innerHTML ="<p>" + myJSON[i].name + " Price: " + myJSON[i].price + " Qty: " + myJSON[i].qty + "</p>";
         }
         
     }
