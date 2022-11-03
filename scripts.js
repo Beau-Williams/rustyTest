@@ -4,6 +4,9 @@ import myJSON from './products.json' assert {type: 'json'};
 let search = document.getElementById("search");
 let button = document.getElementById("sub");
 let result = document.getElementById("result");
+let del = document.getElementById("del");
+
+
 button.addEventListener("click", function(){
     let searchItem = search.value;
     
@@ -19,3 +22,16 @@ button.addEventListener("click", function(){
         
     }
 })
+function delChildren() {
+    let e = result;
+    var child = e.lastElementChild;
+    while(child){
+        e.removeChild(child);
+        child = e.lastElementChild;
+    }
+}
+
+del.addEventListener("click", function(){
+    delChildren();
+});
+
