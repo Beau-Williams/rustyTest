@@ -1,0 +1,73 @@
+body{
+    margin: 0 ;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#rustys-logo{
+    height: 150px;
+    width: 150px;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    margin: 10px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+#del {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#sub {
+    border-radius: 20px;
+}
+
+
+
+
+#resultList li{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+}
+
+nav li{
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #111;
+}
