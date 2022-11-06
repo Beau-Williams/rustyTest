@@ -13,35 +13,35 @@ $(function(){
             "dept" : "produce",
             "price" : 0.69,
             "qty" : 100,
-            "img" : "/imgs/dig.jpg"
+            "img" : "imgs/dig.jpg"
         },
         {
             "name" : "oranges",
             "dept" : "produce",
             "price" : 1.50,
             "qty" : 125,
-            "img" : "/imgs/dig.jpg"
+            "img" : "imgs/dig.jpg"
         },
         {
             "name" : "hiland whole milk",
             "dept" : "dairy",
             "price" : 4.99,
             "qty" : 25,
-            "img" : "/imgs/dig.jpg"
+            "img" : "imgs/dig.jpg"
         },
         {
             "name" : "hiland 2% milk",
             "dept" : "dairy",
             "price" : 4.25,
             "qty" : 30,
-            "img" : "/imgs/dig.jpg"
+            "img" : "imgs/dig.jpg"
         },
         {
             "name" : "digiorno frozen pizza",
             "dept" : "frozen",
             "price" : 5.25,
             "qty" : 20,
-            "img" : "/imgs/dig.jpg"
+            "img" : "imgs/dig.jpg"
         }
         
     ];
