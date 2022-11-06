@@ -6,7 +6,7 @@ $(function(){
             "dept" : "produce",
             "price" : 1.25,
             "qty" : 25,
-            "img" : "rustyTest/imgs/dig.jpg"
+            "img" : "imgs/dig.jpg"
         },
         {
             "name" : "bananas",
