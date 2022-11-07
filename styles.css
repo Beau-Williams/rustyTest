@@ -26,7 +26,7 @@ main{
 
 #search {
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     width: 400px;
 }
 
@@ -51,6 +51,38 @@ main {
     border: 1px solid rgb(24, 78, 38);
     justify-content: flex-start;
     align-items: center;
+}
+/* Dept Result CSS */
+#depResultList li{
+    display: flex;
+    border: 1px solid rgb(24, 78, 38);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#deptButtons {
+    display: flex;
+    justify-content: center;
+    
+}
+#deptButtons button {
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#deptButtons button:hover {
+    background-color: #111;
+    color: white;
+}
+
+#searchAgain{
+    display: flex;
+    justify-content: center;
+}
+
+#searchAgain button:hover{
+    background-color: #111;
+    color: white;
 }
 /* Navbar CSS */
 nav ul{
