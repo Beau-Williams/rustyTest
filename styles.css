@@ -8,10 +8,9 @@ img {
     
 }
 
-main {
+main{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 #rustys-logo{
@@ -40,16 +39,20 @@ main {
     border-radius: 20px;
 }
 
-
-
-
-#resultList li{
+main {
     display: flex;
-    border: 1px solid blue;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
 }
 
+/* Result div CSS */
+#resultList li{
+    display: flex;
+    border: 1px solid rgb(24, 78, 38);
+    justify-content: flex-start;
+    align-items: center;
+}
+/* Navbar CSS */
 nav ul{
     list-style-type: none;
     margin: 0;
