@@ -64,10 +64,13 @@ main {
     display: flex;
     justify-content: center;
     
+    
 }
 #deptButtons button {
     margin: 20px;
     border-radius: 15px;
+    width: 150px;
+    height: 50px;
 }
 
 #deptButtons button:hover {
@@ -78,6 +81,11 @@ main {
 #searchAgain{
     display: flex;
     justify-content: center;
+}
+
+#searchAgain button{
+    width: 150px;
+    height: 50px;
 }
 
 #searchAgain button:hover{
