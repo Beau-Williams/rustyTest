@@ -56,7 +56,7 @@ $(function(){
                     "<li id='items'>"+"<img src='" + products[i].img + "'>" +products[i].name +
                         "<br>&emsp;Department: " + products[i].dept +
                         "<br>&emsp;Price: " + products[i].price +
-                        "<br>&emsp;Qty in Stock" + products[i].qty +
+                        "<br>&emsp;Qty in Stock: " + products[i].qty +
                     "</li>"   
                     );
             }
