@@ -86,7 +86,7 @@ $(function(){
             "img" : "/imgs/frozbroc.jpg"
         },
         {
-            "name" : "Head Country Barbecue Sauce - BBQ",
+            "name" : "Sweet Baby Ray's Barbecue Sauce - BBQ",
             "dept" : "Dry Goods",
             "price" : 3.25,
             "qty" : 20,
