@@ -187,6 +187,7 @@ $(function(){
     ];
     //Product Search Functionality
     $("#sub").on("click", function(){
+        $("#resultList").empty();
         let search = $("#search").val();
         
         for(let i in products){
