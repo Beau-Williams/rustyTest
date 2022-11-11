@@ -115,3 +115,39 @@ nav li a {
 nav li a:hover{
     background-color: #111;
 }
+
+/* Items display */
+
+
+
+#resultList #items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    border: 1px solid black;
+} 
+
+#prodDisp{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+}
+
+#prodDisp #prodImg{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+}
+
+#prodDisp p {
+    flex-direction: column;
+}
+
+#prodName{
+    color:blue
+}
+
+#addList {
+    margin: 10px;
+}
