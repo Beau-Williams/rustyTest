@@ -339,12 +339,12 @@ $(function(){
   })
 //show shopping list array
   $("#showList").on("click",function(){
-    window.localStorage.setItem('item', JSON.stringify(shoppingList))
+   // window.localStorage.setItem('item', JSON.stringify(shoppingList))
     for(let i of shoppingList){
         console.log(i);
         
     }
-    console.log(JSON.parse(window.localStorage.getItem('item')))
+   // console.log(JSON.parse(window.localStorage.getItem('item')))
   })
 
 
